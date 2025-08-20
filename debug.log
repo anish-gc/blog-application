@@ -1,0 +1,33 @@
+2025-08-18 21:45:36,087 INFO Watching for file changes with StatReloader 667 
+2025-08-18 21:45:44,302 INFO Watching for file changes with StatReloader 667 
+2025-08-18 21:45:57,202 INFO "POST /api/auth/login/ HTTP/1.1" 200 3515 213 
+2025-08-18 21:46:54,966 WARNING Unauthorized: /api/auth/login/ 253 
+2025-08-18 21:46:54,966 WARNING "POST /api/auth/login/ HTTP/1.1" 401 67 213 
+2025-08-18 21:47:20,356 INFO "POST /api/auth/login/ HTTP/1.1" 200 3515 213 
+2025-08-18 22:04:46,296 INFO Watching for file changes with StatReloader 667 
+2025-08-18 22:04:55,195 WARNING Not Found: /api/ 253 
+2025-08-18 22:04:55,195 WARNING "GET /api/ HTTP/1.1" 404 8957 213 
+2025-08-18 22:04:57,712 INFO "GET /api/admin/ HTTP/1.1" 302 0 213 
+2025-08-18 22:04:57,728 INFO "GET /api/admin/login/?next=/api/admin/ HTTP/1.1" 200 4192 213 
+2025-08-18 22:05:00,463 INFO "POST /api/admin/login/?next=/api/admin/ HTTP/1.1" 302 0 213 
+2025-08-18 22:05:00,488 INFO "GET /api/admin/ HTTP/1.1" 200 14207 213 
+2025-08-18 22:05:02,272 INFO "GET /api/admin/accounts/rolemenupermission/ HTTP/1.1" 200 16980 213 
+2025-08-18 22:05:02,312 INFO "GET /api/admin/jsi18n/ HTTP/1.1" 200 3342 213 
+2025-08-18 22:05:04,217 INFO "GET /api/admin/accounts/rolemenupermission/add/ HTTP/1.1" 200 27502 213 
+2025-08-18 22:05:04,259 INFO "GET /api/admin/jsi18n/ HTTP/1.1" 200 3342 213 
+2025-08-18 22:08:01,848 INFO Watching for file changes with StatReloader 667 
+2025-08-18 22:08:07,104 INFO "GET /api/admin/accounts/rolemenupermission/add/ HTTP/1.1" 200 27502 213 
+2025-08-18 22:08:07,146 INFO "GET /api/admin/jsi18n/ HTTP/1.1" 200 3342 213 
+2025-08-18 22:08:08,657 INFO "GET /api/admin/accounts/rolemenupermission/ HTTP/1.1" 200 30709 213 
+2025-08-18 22:08:08,696 INFO "GET /api/admin/jsi18n/ HTTP/1.1" 200 3342 213 
+2025-08-18 22:08:58,019 INFO Watching for file changes with StatReloader 667 
+2025-08-18 22:09:00,496 INFO "GET /api/admin/accounts/account/ HTTP/1.1" 200 18537 213 
+2025-08-18 22:09:00,544 INFO "GET /api/admin/jsi18n/ HTTP/1.1" 200 3342 213 
+2025-08-18 22:09:03,070 INFO "GET /api/admin/accounts/account/add/ HTTP/1.1" 200 19950 213 
+2025-08-18 22:09:03,114 INFO "GET /static/admin/css/unusable_password_field.css HTTP/1.1" 304 0 213 
+2025-08-18 22:09:03,116 INFO "GET /static/admin/js/unusable_password_field.js HTTP/1.1" 304 0 213 
+2025-08-18 22:09:03,116 INFO "GET /api/admin/jsi18n/ HTTP/1.1" 200 3342 213 
+2025-08-18 22:09:14,093 INFO "POST /api/admin/accounts/account/add/ HTTP/1.1" 302 0 213 
+2025-08-18 22:09:14,137 INFO "GET /api/admin/accounts/account/2/change/ HTTP/1.1" 200 32648 213 
+2025-08-18 22:09:14,227 INFO "GET /api/admin/jsi18n/ HTTP/1.1" 200 3342 213 
+2025-08-18 22:09:32,885 INFO "POST /api/auth/login/ HTTP/1.1" 200 3503 213 
