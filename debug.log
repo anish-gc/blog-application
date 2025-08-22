@@ -1,33 +1,62 @@
-2025-08-18 21:45:36,087 INFO Watching for file changes with StatReloader 667 
-2025-08-18 21:45:44,302 INFO Watching for file changes with StatReloader 667 
-2025-08-18 21:45:57,202 INFO "POST /api/auth/login/ HTTP/1.1" 200 3515 213 
-2025-08-18 21:46:54,966 WARNING Unauthorized: /api/auth/login/ 253 
-2025-08-18 21:46:54,966 WARNING "POST /api/auth/login/ HTTP/1.1" 401 67 213 
-2025-08-18 21:47:20,356 INFO "POST /api/auth/login/ HTTP/1.1" 200 3515 213 
-2025-08-18 22:04:46,296 INFO Watching for file changes with StatReloader 667 
-2025-08-18 22:04:55,195 WARNING Not Found: /api/ 253 
-2025-08-18 22:04:55,195 WARNING "GET /api/ HTTP/1.1" 404 8957 213 
-2025-08-18 22:04:57,712 INFO "GET /api/admin/ HTTP/1.1" 302 0 213 
-2025-08-18 22:04:57,728 INFO "GET /api/admin/login/?next=/api/admin/ HTTP/1.1" 200 4192 213 
-2025-08-18 22:05:00,463 INFO "POST /api/admin/login/?next=/api/admin/ HTTP/1.1" 302 0 213 
-2025-08-18 22:05:00,488 INFO "GET /api/admin/ HTTP/1.1" 200 14207 213 
-2025-08-18 22:05:02,272 INFO "GET /api/admin/accounts/rolemenupermission/ HTTP/1.1" 200 16980 213 
-2025-08-18 22:05:02,312 INFO "GET /api/admin/jsi18n/ HTTP/1.1" 200 3342 213 
-2025-08-18 22:05:04,217 INFO "GET /api/admin/accounts/rolemenupermission/add/ HTTP/1.1" 200 27502 213 
-2025-08-18 22:05:04,259 INFO "GET /api/admin/jsi18n/ HTTP/1.1" 200 3342 213 
-2025-08-18 22:08:01,848 INFO Watching for file changes with StatReloader 667 
-2025-08-18 22:08:07,104 INFO "GET /api/admin/accounts/rolemenupermission/add/ HTTP/1.1" 200 27502 213 
-2025-08-18 22:08:07,146 INFO "GET /api/admin/jsi18n/ HTTP/1.1" 200 3342 213 
-2025-08-18 22:08:08,657 INFO "GET /api/admin/accounts/rolemenupermission/ HTTP/1.1" 200 30709 213 
-2025-08-18 22:08:08,696 INFO "GET /api/admin/jsi18n/ HTTP/1.1" 200 3342 213 
-2025-08-18 22:08:58,019 INFO Watching for file changes with StatReloader 667 
-2025-08-18 22:09:00,496 INFO "GET /api/admin/accounts/account/ HTTP/1.1" 200 18537 213 
-2025-08-18 22:09:00,544 INFO "GET /api/admin/jsi18n/ HTTP/1.1" 200 3342 213 
-2025-08-18 22:09:03,070 INFO "GET /api/admin/accounts/account/add/ HTTP/1.1" 200 19950 213 
-2025-08-18 22:09:03,114 INFO "GET /static/admin/css/unusable_password_field.css HTTP/1.1" 304 0 213 
-2025-08-18 22:09:03,116 INFO "GET /static/admin/js/unusable_password_field.js HTTP/1.1" 304 0 213 
-2025-08-18 22:09:03,116 INFO "GET /api/admin/jsi18n/ HTTP/1.1" 200 3342 213 
-2025-08-18 22:09:14,093 INFO "POST /api/admin/accounts/account/add/ HTTP/1.1" 302 0 213 
-2025-08-18 22:09:14,137 INFO "GET /api/admin/accounts/account/2/change/ HTTP/1.1" 200 32648 213 
-2025-08-18 22:09:14,227 INFO "GET /api/admin/jsi18n/ HTTP/1.1" 200 3342 213 
-2025-08-18 22:09:32,885 INFO "POST /api/auth/login/ HTTP/1.1" 200 3503 213 
+2025-08-21 11:27:53,644 WARNING Bad Request: /api/auth/register/ 253 
+2025-08-21 11:27:53,644 WARNING "POST /api/auth/register/ HTTP/1.1" 400 25 213 
+2025-08-21 11:28:00,612 INFO /home/anishchengre/Django/blog-application/authentication/views.py changed, reloading. 265 
+2025-08-21 11:28:00,867 INFO Watching for file changes with StatReloader 667 
+2025-08-21 11:28:04,163 WARNING Bad Request: /api/auth/register/ 253 
+2025-08-21 11:28:04,163 WARNING "POST /api/auth/register/ HTTP/1.1" 400 25 213 
+2025-08-21 11:28:08,620 WARNING Bad Request: /api/auth/register/ 253 
+2025-08-21 11:28:08,620 WARNING "POST /api/auth/register/ HTTP/1.1" 400 25 213 
+2025-08-21 11:29:01,961 INFO Watching for file changes with StatReloader 667 
+2025-08-21 11:29:14,206 WARNING Bad Request: /api/auth/register/ 253 
+2025-08-21 11:29:14,207 WARNING "POST /api/auth/register/ HTTP/1.1" 400 25 213 
+2025-08-21 11:29:22,649 WARNING Bad Request: /api/auth/register/ 253 
+2025-08-21 11:29:22,649 WARNING "POST /api/auth/register/ HTTP/1.1" 400 56 213 
+2025-08-21 11:29:34,465 INFO /home/anishchengre/Django/blog-application/authentication/views.py changed, reloading. 265 
+2025-08-21 11:29:34,748 INFO Watching for file changes with StatReloader 667 
+2025-08-21 11:29:54,276 INFO Watching for file changes with StatReloader 667 
+2025-08-21 11:30:01,328 WARNING Bad Request: /api/auth/register/ 253 
+2025-08-21 11:30:01,328 WARNING "POST /api/auth/register/ HTTP/1.1" 400 36 213 
+2025-08-21 11:30:24,709 INFO /home/anishchengre/Django/blog-application/authentication/views.py changed, reloading. 265 
+2025-08-21 11:30:24,987 INFO Watching for file changes with StatReloader 667 
+2025-08-21 11:30:25,791 WARNING Bad Request: /api/auth/register/ 253 
+2025-08-21 11:30:25,792 WARNING "POST /api/auth/register/ HTTP/1.1" 400 62 213 
+2025-08-21 11:30:33,219 ERROR Internal Server Error: /api/auth/register/ 253 
+2025-08-21 11:30:33,219 ERROR "POST /api/auth/register/ HTTP/1.1" 500 96 213 
+2025-08-21 11:31:33,728 INFO /home/anishchengre/Django/blog-application/accounts/models.py changed, reloading. 265 
+2025-08-21 11:31:33,988 INFO Watching for file changes with StatReloader 667 
+2025-08-21 11:33:03,776 INFO Watching for file changes with StatReloader 667 
+2025-08-21 11:33:06,937 INFO /home/anishchengre/Django/blog-application/authentication/views.py changed, reloading. 265 
+2025-08-21 11:33:07,189 INFO Watching for file changes with StatReloader 667 
+2025-08-21 11:33:09,806 INFO "POST /api/auth/register/ HTTP/1.1" 201 84 213 
+2025-08-21 11:34:41,558 WARNING Bad Request: /api/auth/register/ 253 
+2025-08-21 11:34:41,559 WARNING "POST /api/auth/register/ HTTP/1.1" 400 56 213 
+2025-08-21 11:34:42,884 WARNING Bad Request: /api/auth/register/ 253 
+2025-08-21 11:34:42,884 WARNING "POST /api/auth/register/ HTTP/1.1" 400 56 213 
+2025-08-21 11:34:43,405 WARNING Bad Request: /api/auth/register/ 253 
+2025-08-21 11:34:43,405 WARNING "POST /api/auth/register/ HTTP/1.1" 400 56 213 
+2025-08-21 11:34:43,558 WARNING Bad Request: /api/auth/register/ 253 
+2025-08-21 11:34:43,558 WARNING "POST /api/auth/register/ HTTP/1.1" 400 56 213 
+2025-08-21 11:34:43,702 WARNING Bad Request: /api/auth/register/ 253 
+2025-08-21 11:34:43,702 WARNING "POST /api/auth/register/ HTTP/1.1" 400 56 213 
+2025-08-21 11:34:43,916 WARNING Bad Request: /api/auth/register/ 253 
+2025-08-21 11:34:43,916 WARNING "POST /api/auth/register/ HTTP/1.1" 400 56 213 
+2025-08-21 11:34:44,418 WARNING Bad Request: /api/auth/register/ 253 
+2025-08-21 11:34:44,418 WARNING "POST /api/auth/register/ HTTP/1.1" 400 56 213 
+2025-08-21 11:34:50,859 WARNING Bad Request: /api/auth/register/ 253 
+2025-08-21 11:34:50,859 WARNING "POST /api/auth/register/ HTTP/1.1" 400 56 213 
+2025-08-21 11:35:21,500 INFO /home/anishchengre/Django/blog-application/authentication/urls.py changed, reloading. 265 
+2025-08-21 11:35:21,845 INFO Watching for file changes with StatReloader 667 
+2025-08-21 11:35:27,985 INFO /home/anishchengre/Django/blog-application/authentication/views.py changed, reloading. 265 
+2025-08-21 11:35:28,285 INFO Watching for file changes with StatReloader 667 
+2025-08-21 11:35:30,414 INFO /home/anishchengre/Django/blog-application/authentication/urls.py changed, reloading. 265 
+2025-08-21 11:35:30,678 INFO Watching for file changes with StatReloader 667 
+2025-08-21 11:35:32,771 INFO /home/anishchengre/Django/blog-application/authentication/urls.py changed, reloading. 265 
+2025-08-21 11:35:33,080 INFO Watching for file changes with StatReloader 667 
+2025-08-21 11:35:38,235 INFO /home/anishchengre/Django/blog-application/authentication/urls.py changed, reloading. 265 
+2025-08-21 11:35:38,498 INFO Watching for file changes with StatReloader 667 
+2025-08-21 11:35:42,659 INFO /home/anishchengre/Django/blog-application/authentication/urls.py changed, reloading. 265 
+2025-08-21 11:35:42,948 INFO Watching for file changes with StatReloader 667 
+2025-08-21 11:35:52,053 WARNING Bad Request: /api/auth/login/ 253 
+2025-08-21 11:35:52,054 WARNING "POST /api/auth/login/ HTTP/1.1" 400 25 213 
+2025-08-21 11:35:57,296 WARNING Bad Request: /api/auth/login/ 253 
+2025-08-21 11:35:57,296 WARNING "POST /api/auth/login/ HTTP/1.1" 400 25 213 
