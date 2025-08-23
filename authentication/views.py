@@ -72,12 +72,10 @@ class LoginApiView(View):
 
     def post(self, request):
         try:
-            print('Login attempt received')
             data = json.loads(request.body)
             username = data.get("username")
             password = data.get("password")
             
-            print(f'Username: {username}, Password: {"*" * len(password) if password else None}')
             
             if not all([username, password]):
                 return JsonResponse(
@@ -87,10 +85,8 @@ class LoginApiView(View):
             # Authenticate user
             user = authenticate(username=username, password=password)
             if not user:
-                print('Authentication failed')
                 return JsonResponse({"error": "Invalid credentials"}, status=401)
             
-            print('Authentication successful')
 
             # Generate JWT token
             token = generate_jwt_token(user)
@@ -103,12 +99,9 @@ class LoginApiView(View):
                 },
             }
             
-            print('Returning success response')
             return JsonResponse(response_data)
 
         except json.JSONDecodeError:
-            print('JSON decode error')
             return JsonResponse({"error": "Invalid JSON"}, status=400)
         except Exception as e:
-            print(f'Unexpected error: {str(e)}')
             return JsonResponse({"error": str(e)}, status=500)

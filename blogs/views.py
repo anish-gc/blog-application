@@ -73,7 +73,7 @@ class PostListView(BasePostView, PaginationMixin, SearchMixin):
         """Get all published posts with pagination and search"""
         try:
             # Base queryset - only published posts for public access
-            queryset = Post.objects.select_related('author').filter(is_published=True)
+            queryset = Post.objects.select_related('author').filter(is_active=True)
             
             # Apply search
             queryset = self.apply_search(queryset, request)
@@ -102,7 +102,6 @@ class PostListView(BasePostView, PaginationMixin, SearchMixin):
             posts_data = []
             for post in paginated_data['data']:
                 posts_data.append(self.serialize_object(post))
-            
             response_data = {
                 'posts': posts_data,
                 'pagination': paginated_data['pagination']
@@ -159,7 +158,55 @@ class PostCreateView(BasePostView):
                 status=500
             )
 
-
+class UserPostsView(BasePostView, PaginationMixin, SearchMixin):
+    """
+    GET /posts/my-posts/ - Get authenticated user's posts
+    """
+    @jwt_required  
+    def get(self, request):
+        """Get authenticated user's posts with pagination and search"""
+        try:
+            # Check if user is authenticated
+            if not request.user.is_authenticated:
+                return self.json_response(
+                    errors={'detail': 'Authentication required'},
+                    status=401
+                )
+            
+            # Base queryset - only user's posts (both published and drafts)
+            queryset = Post.objects.select_related('author').filter(
+                author=request.user
+            )
+            
+            # Apply search
+            queryset = self.apply_search(queryset, request)
+            
+            # Apply ordering
+            ordering = request.GET.get('ordering', '-created_at')
+            valid_orderings = ['created_at', '-created_at', 'title', '-title', 'updated_at', '-updated_at']
+            if ordering in valid_orderings:
+                queryset = queryset.order_by(ordering)
+            
+            # Paginate results
+            paginated_data = self.paginate_queryset(queryset, request)
+            
+            # Serialize data
+            posts_data = []
+            for post in paginated_data['data']:
+                posts_data.append(self.serialize_object(post))
+                
+            response_data = {
+                'posts': posts_data,
+                'pagination': paginated_data['pagination']
+            }
+            
+            return self.json_response(response_data)
+            
+        except Exception as e:
+            return self.json_response(
+                errors={'detail': 'An error occurred while fetching your posts'},
+                status=500
+            )
 class PostDetailView(BasePostView):
     """
     GET /posts/<id>/ - Get post details (Public)
@@ -173,7 +220,7 @@ class PostDetailView(BasePostView):
                 return error_response
             
             # Check if post is published (unless owner is viewing)
-            if not post.is_published and (not request.user or post.author != request.user):
+            if not post.is_active and (not request.user or post.author != request.user):
                 return self.json_response(
                     errors={'detail': 'Post not found'},
                     status=404
@@ -250,7 +297,7 @@ class PostUpdateView(BasePostView):
                 if 'content' in data:
                     post.content = data['content'].strip()
                 if 'is_published' in data:
-                    post.is_published = bool(data['is_published'])
+                    post.is_active = bool(data['is_published'])
                 
                 post.save()
             
