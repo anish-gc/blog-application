@@ -16,10 +16,10 @@ def generate_jwt_token(user):
         'iat': datetime.now(timezone.utc)
 
     }
-    
+    print(settings.JWT_SECRET_KEY)
     token = jwt.encode(
-        payload,
-        settings.JWT_SECRET_KEY,
+        payload=payload,
+        key=settings.JWT_SECRET_KEY,
         algorithm=settings.JWT_ALGORITHM
     )
     

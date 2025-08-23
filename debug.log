@@ -1,62 +1,260 @@
-2025-08-21 11:27:53,644 WARNING Bad Request: /api/auth/register/ 253 
-2025-08-21 11:27:53,644 WARNING "POST /api/auth/register/ HTTP/1.1" 400 25 213 
-2025-08-21 11:28:00,612 INFO /home/anishchengre/Django/blog-application/authentication/views.py changed, reloading. 265 
-2025-08-21 11:28:00,867 INFO Watching for file changes with StatReloader 667 
-2025-08-21 11:28:04,163 WARNING Bad Request: /api/auth/register/ 253 
-2025-08-21 11:28:04,163 WARNING "POST /api/auth/register/ HTTP/1.1" 400 25 213 
-2025-08-21 11:28:08,620 WARNING Bad Request: /api/auth/register/ 253 
-2025-08-21 11:28:08,620 WARNING "POST /api/auth/register/ HTTP/1.1" 400 25 213 
-2025-08-21 11:29:01,961 INFO Watching for file changes with StatReloader 667 
-2025-08-21 11:29:14,206 WARNING Bad Request: /api/auth/register/ 253 
-2025-08-21 11:29:14,207 WARNING "POST /api/auth/register/ HTTP/1.1" 400 25 213 
-2025-08-21 11:29:22,649 WARNING Bad Request: /api/auth/register/ 253 
-2025-08-21 11:29:22,649 WARNING "POST /api/auth/register/ HTTP/1.1" 400 56 213 
-2025-08-21 11:29:34,465 INFO /home/anishchengre/Django/blog-application/authentication/views.py changed, reloading. 265 
-2025-08-21 11:29:34,748 INFO Watching for file changes with StatReloader 667 
-2025-08-21 11:29:54,276 INFO Watching for file changes with StatReloader 667 
-2025-08-21 11:30:01,328 WARNING Bad Request: /api/auth/register/ 253 
-2025-08-21 11:30:01,328 WARNING "POST /api/auth/register/ HTTP/1.1" 400 36 213 
-2025-08-21 11:30:24,709 INFO /home/anishchengre/Django/blog-application/authentication/views.py changed, reloading. 265 
-2025-08-21 11:30:24,987 INFO Watching for file changes with StatReloader 667 
-2025-08-21 11:30:25,791 WARNING Bad Request: /api/auth/register/ 253 
-2025-08-21 11:30:25,792 WARNING "POST /api/auth/register/ HTTP/1.1" 400 62 213 
-2025-08-21 11:30:33,219 ERROR Internal Server Error: /api/auth/register/ 253 
-2025-08-21 11:30:33,219 ERROR "POST /api/auth/register/ HTTP/1.1" 500 96 213 
-2025-08-21 11:31:33,728 INFO /home/anishchengre/Django/blog-application/accounts/models.py changed, reloading. 265 
-2025-08-21 11:31:33,988 INFO Watching for file changes with StatReloader 667 
-2025-08-21 11:33:03,776 INFO Watching for file changes with StatReloader 667 
-2025-08-21 11:33:06,937 INFO /home/anishchengre/Django/blog-application/authentication/views.py changed, reloading. 265 
-2025-08-21 11:33:07,189 INFO Watching for file changes with StatReloader 667 
-2025-08-21 11:33:09,806 INFO "POST /api/auth/register/ HTTP/1.1" 201 84 213 
-2025-08-21 11:34:41,558 WARNING Bad Request: /api/auth/register/ 253 
-2025-08-21 11:34:41,559 WARNING "POST /api/auth/register/ HTTP/1.1" 400 56 213 
-2025-08-21 11:34:42,884 WARNING Bad Request: /api/auth/register/ 253 
-2025-08-21 11:34:42,884 WARNING "POST /api/auth/register/ HTTP/1.1" 400 56 213 
-2025-08-21 11:34:43,405 WARNING Bad Request: /api/auth/register/ 253 
-2025-08-21 11:34:43,405 WARNING "POST /api/auth/register/ HTTP/1.1" 400 56 213 
-2025-08-21 11:34:43,558 WARNING Bad Request: /api/auth/register/ 253 
-2025-08-21 11:34:43,558 WARNING "POST /api/auth/register/ HTTP/1.1" 400 56 213 
-2025-08-21 11:34:43,702 WARNING Bad Request: /api/auth/register/ 253 
-2025-08-21 11:34:43,702 WARNING "POST /api/auth/register/ HTTP/1.1" 400 56 213 
-2025-08-21 11:34:43,916 WARNING Bad Request: /api/auth/register/ 253 
-2025-08-21 11:34:43,916 WARNING "POST /api/auth/register/ HTTP/1.1" 400 56 213 
-2025-08-21 11:34:44,418 WARNING Bad Request: /api/auth/register/ 253 
-2025-08-21 11:34:44,418 WARNING "POST /api/auth/register/ HTTP/1.1" 400 56 213 
-2025-08-21 11:34:50,859 WARNING Bad Request: /api/auth/register/ 253 
-2025-08-21 11:34:50,859 WARNING "POST /api/auth/register/ HTTP/1.1" 400 56 213 
-2025-08-21 11:35:21,500 INFO /home/anishchengre/Django/blog-application/authentication/urls.py changed, reloading. 265 
-2025-08-21 11:35:21,845 INFO Watching for file changes with StatReloader 667 
-2025-08-21 11:35:27,985 INFO /home/anishchengre/Django/blog-application/authentication/views.py changed, reloading. 265 
-2025-08-21 11:35:28,285 INFO Watching for file changes with StatReloader 667 
-2025-08-21 11:35:30,414 INFO /home/anishchengre/Django/blog-application/authentication/urls.py changed, reloading. 265 
-2025-08-21 11:35:30,678 INFO Watching for file changes with StatReloader 667 
-2025-08-21 11:35:32,771 INFO /home/anishchengre/Django/blog-application/authentication/urls.py changed, reloading. 265 
-2025-08-21 11:35:33,080 INFO Watching for file changes with StatReloader 667 
-2025-08-21 11:35:38,235 INFO /home/anishchengre/Django/blog-application/authentication/urls.py changed, reloading. 265 
-2025-08-21 11:35:38,498 INFO Watching for file changes with StatReloader 667 
-2025-08-21 11:35:42,659 INFO /home/anishchengre/Django/blog-application/authentication/urls.py changed, reloading. 265 
-2025-08-21 11:35:42,948 INFO Watching for file changes with StatReloader 667 
-2025-08-21 11:35:52,053 WARNING Bad Request: /api/auth/login/ 253 
-2025-08-21 11:35:52,054 WARNING "POST /api/auth/login/ HTTP/1.1" 400 25 213 
-2025-08-21 11:35:57,296 WARNING Bad Request: /api/auth/login/ 253 
-2025-08-21 11:35:57,296 WARNING "POST /api/auth/login/ HTTP/1.1" 400 25 213 
+2025-08-22 22:35:13,998 WARNING Unauthorized: /api/auth/login/ 253 
+2025-08-22 22:35:13,998 WARNING "POST /api/auth/login/ HTTP/1.1" 401 32 213 
+2025-08-22 22:35:34,085 INFO /home/anishchengre/Django/blog-application/authentication/views.py changed, reloading. 265 
+2025-08-22 22:35:34,396 INFO Watching for file changes with StatReloader 667 
+2025-08-22 22:35:38,319 WARNING Unauthorized: /api/auth/login/ 253 
+2025-08-22 22:35:38,319 WARNING "POST /api/auth/login/ HTTP/1.1" 401 32 213 
+2025-08-22 22:35:46,635 INFO /home/anishchengre/Django/blog-application/authentication/views.py changed, reloading. 265 
+2025-08-22 22:35:46,982 INFO Watching for file changes with StatReloader 667 
+2025-08-22 22:35:48,737 WARNING Unauthorized: /api/auth/login/ 253 
+2025-08-22 22:35:48,737 WARNING "POST /api/auth/login/ HTTP/1.1" 401 32 213 
+2025-08-22 22:36:07,360 INFO /home/anishchengre/Django/blog-application/authentication/views.py changed, reloading. 265 
+2025-08-22 22:36:07,717 INFO Watching for file changes with StatReloader 667 
+2025-08-22 22:36:09,410 WARNING Unauthorized: /api/auth/login/ 253 
+2025-08-22 22:36:09,411 WARNING "POST /api/auth/login/ HTTP/1.1" 401 32 213 
+2025-08-22 22:41:34,608 WARNING Unauthorized: /api/auth/login/ 253 
+2025-08-22 22:41:34,608 WARNING "POST /api/auth/login/ HTTP/1.1" 401 32 213 
+2025-08-22 22:41:39,761 WARNING Unauthorized: /api/auth/login/ 253 
+2025-08-22 22:41:39,761 WARNING "POST /api/auth/login/ HTTP/1.1" 401 32 213 
+2025-08-22 22:58:27,750 ERROR Internal Server Error: /api/auth/login/ 253 
+2025-08-22 22:58:27,751 ERROR "POST /api/auth/login/ HTTP/1.1" 500 54 213 
+2025-08-22 22:58:35,054 ERROR Internal Server Error: /api/auth/login/ 253 
+2025-08-22 22:58:35,054 ERROR "POST /api/auth/login/ HTTP/1.1" 500 54 213 
+2025-08-22 23:00:09,204 ERROR Internal Server Error: /api/auth/login/ 253 
+2025-08-22 23:00:09,204 ERROR "POST /api/auth/login/ HTTP/1.1" 500 54 213 
+2025-08-22 23:01:14,467 INFO /home/anishchengre/Django/blog-application/authentication/views.py changed, reloading. 265 
+2025-08-22 23:01:14,791 INFO Watching for file changes with StatReloader 667 
+2025-08-22 23:01:16,524 INFO "POST /api/auth/login/ HTTP/1.1" 200 239 213 
+2025-08-22 23:01:16,544 WARNING Not Found: /api/posts/ 253 
+2025-08-22 23:01:16,544 WARNING "GET /api/posts/ HTTP/1.1" 404 2355 213 
+2025-08-22 23:01:16,605 WARNING Not Found: /api/posts/ 253 
+2025-08-22 23:01:16,605 WARNING "GET /api/posts/ HTTP/1.1" 404 2355 213 
+2025-08-22 23:01:28,730 WARNING Unauthorized: /api/auth/login/ 253 
+2025-08-22 23:01:28,730 WARNING "POST /api/auth/login/ HTTP/1.1" 401 32 213 
+2025-08-22 23:01:34,409 WARNING Unauthorized: /api/auth/login/ 253 
+2025-08-22 23:01:34,409 WARNING "POST /api/auth/login/ HTTP/1.1" 401 32 213 
+2025-08-22 23:04:30,547 INFO /home/anishchengre/Django/blog-application/core/settings.py changed, reloading. 265 
+2025-08-22 23:04:30,905 INFO Watching for file changes with StatReloader 667 
+2025-08-22 23:04:41,149 INFO /home/anishchengre/Django/blog-application/core/settings.py changed, reloading. 265 
+2025-08-22 23:04:41,487 INFO Watching for file changes with StatReloader 667 
+2025-08-22 23:05:07,829 INFO /home/anishchengre/Django/blog-application/authentication/views.py changed, reloading. 265 
+2025-08-22 23:05:08,148 INFO Watching for file changes with StatReloader 667 
+2025-08-22 23:05:11,302 INFO Watching for file changes with StatReloader 667 
+2025-08-22 23:05:15,702 WARNING Not Found: /api/posts/ 253 
+2025-08-22 23:05:15,703 WARNING "GET /api/posts/ HTTP/1.1" 404 2355 213 
+2025-08-22 23:05:15,707 WARNING Not Found: /api/posts/ 253 
+2025-08-22 23:05:15,707 WARNING "GET /api/posts/ HTTP/1.1" 404 2355 213 
+2025-08-22 23:05:20,958 WARNING Unauthorized: /api/auth/login/ 253 
+2025-08-22 23:05:20,958 WARNING "POST /api/auth/login/ HTTP/1.1" 401 32 213 
+2025-08-22 23:05:23,973 WARNING Unauthorized: /api/auth/login/ 253 
+2025-08-22 23:05:23,974 WARNING "POST /api/auth/login/ HTTP/1.1" 401 32 213 
+2025-08-22 23:05:34,014 WARNING Unauthorized: /api/auth/login/ 253 
+2025-08-22 23:05:34,015 WARNING "POST /api/auth/login/ HTTP/1.1" 401 32 213 
+2025-08-22 23:05:41,034 WARNING Unauthorized: /api/auth/login/ 253 
+2025-08-22 23:05:41,034 WARNING "POST /api/auth/login/ HTTP/1.1" 401 32 213 
+2025-08-22 23:07:19,725 WARNING Not Found: /api/login/ 253 
+2025-08-22 23:07:19,726 WARNING "OPTIONS /api/login/ HTTP/1.1" 404 2359 213 
+2025-08-22 23:07:29,538 WARNING Not Found: /api/login/ 253 
+2025-08-22 23:07:29,539 WARNING "OPTIONS /api/login/ HTTP/1.1" 404 2359 213 
+2025-08-22 23:08:26,356 WARNING Not Found: /api/login/ 253 
+2025-08-22 23:08:26,356 WARNING "OPTIONS /api/login/ HTTP/1.1" 404 2359 213 
+2025-08-22 23:08:50,739 INFO "OPTIONS /api/auth/login/ HTTP/1.1" 200 2 213 
+2025-08-22 23:09:00,350 INFO "OPTIONS /api/auth/login/ HTTP/1.1" 200 2 213 
+2025-08-22 23:09:03,826 WARNING Unauthorized: /api/auth/login/ 253 
+2025-08-22 23:09:03,826 WARNING "POST /api/auth/login/ HTTP/1.1" 401 32 213 
+2025-08-22 23:09:07,217 WARNING Unauthorized: /api/auth/login/ 253 
+2025-08-22 23:09:07,218 WARNING "POST /api/auth/login/ HTTP/1.1" 401 32 213 
+2025-08-22 23:09:09,976 WARNING Unauthorized: /api/auth/login/ 253 
+2025-08-22 23:09:09,976 WARNING "POST /api/auth/login/ HTTP/1.1" 401 32 213 
+2025-08-22 23:09:13,159 WARNING Unauthorized: /api/auth/login/ 253 
+2025-08-22 23:09:13,159 WARNING "POST /api/auth/login/ HTTP/1.1" 401 32 213 
+2025-08-22 23:09:25,586 WARNING Unauthorized: /api/auth/login/ 253 
+2025-08-22 23:09:25,586 WARNING "POST /api/auth/login/ HTTP/1.1" 401 32 213 
+2025-08-22 23:09:37,228 WARNING Unauthorized: /api/auth/login/ 253 
+2025-08-22 23:09:37,228 WARNING "POST /api/auth/login/ HTTP/1.1" 401 32 213 
+2025-08-22 23:09:42,077 WARNING Unauthorized: /api/auth/login/ 253 
+2025-08-22 23:09:42,077 WARNING "POST /api/auth/login/ HTTP/1.1" 401 32 213 
+2025-08-22 23:09:48,280 WARNING Unauthorized: /api/auth/login/ 253 
+2025-08-22 23:09:48,280 WARNING "POST /api/auth/login/ HTTP/1.1" 401 32 213 
+2025-08-22 23:09:52,376 WARNING Unauthorized: /api/auth/login/ 253 
+2025-08-22 23:09:52,376 WARNING "POST /api/auth/login/ HTTP/1.1" 401 32 213 
+2025-08-22 23:09:55,395 WARNING Unauthorized: /api/auth/login/ 253 
+2025-08-22 23:09:55,396 WARNING "POST /api/auth/login/ HTTP/1.1" 401 32 213 
+2025-08-22 23:09:58,721 WARNING Unauthorized: /api/auth/login/ 253 
+2025-08-22 23:09:58,721 WARNING "POST /api/auth/login/ HTTP/1.1" 401 32 213 
+2025-08-22 23:10:01,967 WARNING Unauthorized: /api/auth/login/ 253 
+2025-08-22 23:10:01,967 WARNING "POST /api/auth/login/ HTTP/1.1" 401 32 213 
+2025-08-22 23:12:36,268 INFO "OPTIONS /api/auth/login/ HTTP/1.1" 200 2 213 
+2025-08-22 23:12:39,919 WARNING Unauthorized: /api/auth/login/ 253 
+2025-08-22 23:12:39,919 WARNING "POST /api/auth/login/ HTTP/1.1" 401 32 213 
+2025-08-22 23:23:09,137 INFO "OPTIONS /api/auth/login/ HTTP/1.1" 200 2 213 
+2025-08-22 23:23:13,172 WARNING Unauthorized: /api/auth/login/ 253 
+2025-08-22 23:23:13,173 WARNING "POST /api/auth/login/ HTTP/1.1" 401 32 213 
+2025-08-22 23:31:02,104 WARNING Unauthorized: /api/auth/login/ 253 
+2025-08-22 23:31:02,104 WARNING "POST /api/auth/login/ HTTP/1.1" 401 32 213 
+2025-08-22 23:31:03,167 WARNING Unauthorized: /api/auth/login/ 253 
+2025-08-22 23:31:03,167 WARNING "POST /api/auth/login/ HTTP/1.1" 401 32 213 
+2025-08-22 23:31:04,313 WARNING Unauthorized: /api/auth/login/ 253 
+2025-08-22 23:31:04,313 WARNING "POST /api/auth/login/ HTTP/1.1" 401 32 213 
+2025-08-22 23:31:05,334 WARNING Unauthorized: /api/auth/login/ 253 
+2025-08-22 23:31:05,335 WARNING "POST /api/auth/login/ HTTP/1.1" 401 32 213 
+2025-08-22 23:31:20,315 WARNING Unauthorized: /api/auth/login/ 253 
+2025-08-22 23:31:20,316 WARNING "POST /api/auth/login/ HTTP/1.1" 401 32 213 
+2025-08-22 23:31:24,454 ERROR Internal Server Error: /api/auth/login/ 253 
+2025-08-22 23:31:24,455 ERROR "POST /api/auth/login/ HTTP/1.1" 500 54 213 
+2025-08-22 23:31:40,760 ERROR Internal Server Error: /api/auth/login/ 253 
+2025-08-22 23:31:40,761 ERROR "POST /api/auth/login/ HTTP/1.1" 500 54 213 
+2025-08-22 23:32:11,296 INFO /home/anishchengre/Django/blog-application/authentication/views.py changed, reloading. 265 
+2025-08-22 23:32:11,594 INFO Watching for file changes with StatReloader 667 
+2025-08-22 23:32:12,896 INFO "POST /api/auth/login/ HTTP/1.1" 200 239 213 
+2025-08-22 23:32:12,914 WARNING Not Found: /api/posts/ 253 
+2025-08-22 23:32:12,915 WARNING "GET /api/posts/ HTTP/1.1" 404 2355 213 
+2025-08-22 23:32:12,962 WARNING Not Found: /api/posts/ 253 
+2025-08-22 23:32:12,962 WARNING "GET /api/posts/ HTTP/1.1" 404 2355 213 
+2025-08-22 23:34:52,042 INFO /home/anishchengre/Django/blog-application/core/settings.py changed, reloading. 265 
+2025-08-22 23:34:52,304 INFO Watching for file changes with StatReloader 667 
+2025-08-22 23:56:48,237 INFO "OPTIONS /api/posts/ HTTP/1.1" 200 0 213 
+2025-08-22 23:56:48,237 INFO "OPTIONS /api/posts/ HTTP/1.1" 200 0 213 
+2025-08-22 23:56:48,245 WARNING Not Found: /api/posts/ 253 
+2025-08-22 23:56:48,245 WARNING "GET /api/posts/ HTTP/1.1" 404 2355 213 
+2025-08-22 23:56:48,291 WARNING Not Found: /api/posts/ 253 
+2025-08-22 23:56:48,291 WARNING "GET /api/posts/ HTTP/1.1" 404 2355 213 
+2025-08-22 23:56:59,038 WARNING Not Found: /api/posts/ 253 
+2025-08-22 23:56:59,038 WARNING "GET /api/posts/ HTTP/1.1" 404 2355 213 
+2025-08-22 23:56:59,045 WARNING Not Found: /api/posts/ 253 
+2025-08-22 23:56:59,046 WARNING "GET /api/posts/ HTTP/1.1" 404 2355 213 
+2025-08-22 23:57:00,039 WARNING Not Found: /api/posts/ 253 
+2025-08-22 23:57:00,040 WARNING "GET /api/posts/ HTTP/1.1" 404 2355 213 
+2025-08-22 23:57:00,051 WARNING Not Found: /api/posts/ 253 
+2025-08-22 23:57:00,052 WARNING "GET /api/posts/ HTTP/1.1" 404 2355 213 
+2025-08-22 23:57:00,155 WARNING Not Found: /api/posts/ 253 
+2025-08-22 23:57:00,156 WARNING "GET /api/posts/ HTTP/1.1" 404 2355 213 
+2025-08-22 23:57:00,163 WARNING Not Found: /api/posts/ 253 
+2025-08-22 23:57:00,163 WARNING "GET /api/posts/ HTTP/1.1" 404 2355 213 
+2025-08-22 23:57:00,437 WARNING Not Found: /api/posts/ 253 
+2025-08-22 23:57:00,437 WARNING "GET /api/posts/ HTTP/1.1" 404 2355 213 
+2025-08-22 23:57:00,444 WARNING Not Found: /api/posts/ 253 
+2025-08-22 23:57:00,444 WARNING "GET /api/posts/ HTTP/1.1" 404 2355 213 
+2025-08-22 23:57:00,677 WARNING Not Found: /api/posts/ 253 
+2025-08-22 23:57:00,678 WARNING "GET /api/posts/ HTTP/1.1" 404 2355 213 
+2025-08-22 23:57:00,684 WARNING Not Found: /api/posts/ 253 
+2025-08-22 23:57:00,685 WARNING "GET /api/posts/ HTTP/1.1" 404 2355 213 
+2025-08-22 23:57:08,277 INFO "POST /api/auth/login/ HTTP/1.1" 200 239 213 
+2025-08-22 23:57:08,295 WARNING Not Found: /api/posts/ 253 
+2025-08-22 23:57:08,295 WARNING "GET /api/posts/ HTTP/1.1" 404 2355 213 
+2025-08-22 23:57:08,350 WARNING Not Found: /api/posts/ 253 
+2025-08-22 23:57:08,351 WARNING "GET /api/posts/ HTTP/1.1" 404 2355 213 
+2025-08-22 23:58:10,751 INFO /home/anishchengre/Django/blog-application/core/settings.py changed, reloading. 265 
+2025-08-22 23:58:32,098 INFO Watching for file changes with StatReloader 667 
+2025-08-22 23:58:33,706 INFO "POST /api/auth/login/ HTTP/1.1" 200 239 213 
+2025-08-22 23:58:33,723 WARNING Not Found: /api/posts/ 253 
+2025-08-22 23:58:33,724 WARNING "GET /api/posts/ HTTP/1.1" 404 2355 213 
+2025-08-22 23:58:33,773 WARNING Not Found: /api/posts/ 253 
+2025-08-22 23:58:33,773 WARNING "GET /api/posts/ HTTP/1.1" 404 2355 213 
+2025-08-22 23:59:29,800 INFO /home/anishchengre/Django/blog-application/utilities/jwt_utils.py changed, reloading. 265 
+2025-08-22 23:59:30,052 INFO Watching for file changes with StatReloader 667 
+2025-08-22 23:59:39,220 INFO /home/anishchengre/Django/blog-application/utilities/jwt_utils.py changed, reloading. 265 
+2025-08-22 23:59:39,496 INFO Watching for file changes with StatReloader 667 
+2025-08-22 23:59:41,633 INFO /home/anishchengre/Django/blog-application/utilities/jwt_utils.py changed, reloading. 265 
+2025-08-22 23:59:41,907 INFO Watching for file changes with StatReloader 667 
+2025-08-22 23:59:49,668 WARNING Not Found: /api/posts/ 253 
+2025-08-22 23:59:49,669 WARNING "GET /api/posts/ HTTP/1.1" 404 2355 213 
+2025-08-22 23:59:49,676 WARNING Not Found: /api/posts/ 253 
+2025-08-22 23:59:49,676 WARNING "GET /api/posts/ HTTP/1.1" 404 2355 213 
+2025-08-22 23:59:59,917 INFO "POST /api/auth/login/ HTTP/1.1" 200 239 213 
+2025-08-22 23:59:59,936 WARNING Not Found: /api/posts/ 253 
+2025-08-22 23:59:59,936 WARNING "GET /api/posts/ HTTP/1.1" 404 2355 213 
+2025-08-23 00:00:00,000 WARNING Not Found: /api/posts/ 253 
+2025-08-23 00:00:00,001 WARNING "GET /api/posts/ HTTP/1.1" 404 2355 213 
+2025-08-23 00:02:24,434 INFO /home/anishchengre/Django/blog-application/core/settings.py changed, reloading. 265 
+2025-08-23 00:02:24,686 INFO Watching for file changes with StatReloader 667 
+2025-08-23 00:02:35,904 INFO /home/anishchengre/Django/blog-application/utilities/jwt_utils.py changed, reloading. 265 
+2025-08-23 00:02:36,183 INFO Watching for file changes with StatReloader 667 
+2025-08-23 00:02:46,538 INFO "POST /api/auth/login/ HTTP/1.1" 200 239 213 
+2025-08-23 00:02:46,561 WARNING Not Found: /api/posts/ 253 
+2025-08-23 00:02:46,561 WARNING "GET /api/posts/ HTTP/1.1" 404 2355 213 
+2025-08-23 00:02:46,610 WARNING Not Found: /api/posts/ 253 
+2025-08-23 00:02:46,610 WARNING "GET /api/posts/ HTTP/1.1" 404 2355 213 
+2025-08-23 00:04:07,168 INFO /home/anishchengre/Django/blog-application/core/settings.py changed, reloading. 265 
+2025-08-23 00:04:07,539 INFO Watching for file changes with StatReloader 667 
+2025-08-23 00:04:10,931 WARNING Not Found: /api/posts/ 253 
+2025-08-23 00:04:10,931 WARNING "GET /api/posts/ HTTP/1.1" 404 2355 213 
+2025-08-23 00:04:10,938 WARNING Not Found: /api/posts/ 253 
+2025-08-23 00:04:10,938 WARNING "GET /api/posts/ HTTP/1.1" 404 2355 213 
+2025-08-23 00:04:22,529 INFO "POST /api/auth/login/ HTTP/1.1" 200 239 213 
+2025-08-23 00:04:22,545 WARNING Not Found: /api/posts/ 253 
+2025-08-23 00:04:22,546 WARNING "GET /api/posts/ HTTP/1.1" 404 2355 213 
+2025-08-23 00:04:22,598 WARNING Not Found: /api/posts/ 253 
+2025-08-23 00:04:22,598 WARNING "GET /api/posts/ HTTP/1.1" 404 2355 213 
+2025-08-23 00:10:37,973 WARNING Not Found: /api/posts/ 253 
+2025-08-23 00:10:37,973 WARNING "GET /api/posts/ HTTP/1.1" 404 2355 213 
+2025-08-23 00:10:37,980 WARNING Not Found: /api/posts/ 253 
+2025-08-23 00:10:37,981 WARNING "GET /api/posts/ HTTP/1.1" 404 2355 213 
+2025-08-23 00:10:38,033 WARNING Not Found: /api/posts/ 253 
+2025-08-23 00:10:38,033 WARNING "GET /api/posts/ HTTP/1.1" 404 2355 213 
+2025-08-23 00:10:38,083 WARNING Not Found: /api/posts/ 253 
+2025-08-23 00:10:38,084 WARNING "GET /api/posts/ HTTP/1.1" 404 2355 213 
+2025-08-23 00:10:48,590 WARNING Not Found: /api/posts/ 253 
+2025-08-23 00:10:48,591 WARNING "GET /api/posts/ HTTP/1.1" 404 2355 213 
+2025-08-23 00:10:48,604 WARNING Not Found: /api/posts/ 253 
+2025-08-23 00:10:48,605 WARNING "GET /api/posts/ HTTP/1.1" 404 2355 213 
+2025-08-23 00:11:00,648 WARNING Not Found: /api/posts/ 253 
+2025-08-23 00:11:00,648 WARNING "GET /api/posts/ HTTP/1.1" 404 2355 213 
+2025-08-23 00:11:00,652 WARNING Not Found: /api/posts/ 253 
+2025-08-23 00:11:00,653 WARNING "GET /api/posts/ HTTP/1.1" 404 2355 213 
+2025-08-23 00:11:56,340 WARNING Not Found: /api/posts/ 253 
+2025-08-23 00:11:56,340 WARNING "GET /api/posts/ HTTP/1.1" 404 2355 213 
+2025-08-23 00:11:56,345 WARNING Not Found: /api/posts/ 253 
+2025-08-23 00:11:56,345 WARNING "GET /api/posts/ HTTP/1.1" 404 2355 213 
+2025-08-23 00:11:56,541 WARNING Not Found: /api/posts/ 253 
+2025-08-23 00:11:56,541 WARNING "GET /api/posts/ HTTP/1.1" 404 2355 213 
+2025-08-23 00:11:56,547 WARNING Not Found: /api/posts/ 253 
+2025-08-23 00:11:56,548 WARNING "GET /api/posts/ HTTP/1.1" 404 2355 213 
+2025-08-23 00:12:06,557 INFO "OPTIONS /api/register/ HTTP/1.1" 200 0 213 
+2025-08-23 00:12:06,573 WARNING Not Found: /api/register/ 253 
+2025-08-23 00:12:06,574 WARNING "POST /api/register/ HTTP/1.1" 404 2365 213 
+2025-08-23 00:14:54,645 WARNING Not Found: /api/register/ 253 
+2025-08-23 00:14:54,646 WARNING "POST /api/register/ HTTP/1.1" 404 2365 213 
+2025-08-23 00:15:28,594 WARNING Not Found: /api/register/ 253 
+2025-08-23 00:15:28,595 WARNING "POST /api/register/ HTTP/1.1" 404 2365 213 
+2025-08-23 00:15:59,119 WARNING Not Found: /api/register/ 253 
+2025-08-23 00:15:59,119 WARNING "POST /api/register/ HTTP/1.1" 404 2365 213 
+2025-08-23 00:18:45,794 WARNING Not Found: /api/register/ 253 
+2025-08-23 00:18:45,795 WARNING "POST /api/register/ HTTP/1.1" 404 2365 213 
+2025-08-23 00:19:27,382 WARNING Not Found: /api/register/ 253 
+2025-08-23 00:19:27,383 WARNING "POST /api/register/ HTTP/1.1" 404 2365 213 
+2025-08-23 00:19:36,117 WARNING Not Found: /api/register/ 253 
+2025-08-23 00:19:36,118 WARNING "POST /api/register/ HTTP/1.1" 404 2365 213 
+2025-08-23 00:20:58,800 WARNING Not Found: /api/register/ 253 
+2025-08-23 00:20:58,801 WARNING "POST /api/register/ HTTP/1.1" 404 2365 213 
+2025-08-23 00:21:26,332 WARNING Not Found: /api/register/ 253 
+2025-08-23 00:21:26,333 WARNING "POST /api/register/ HTTP/1.1" 404 2365 213 
+2025-08-23 00:23:01,222 WARNING Not Found: /api/register/ 253 
+2025-08-23 00:23:01,222 WARNING "POST /api/register/ HTTP/1.1" 404 2365 213 
+2025-08-23 00:23:06,467 WARNING Not Found: /api/register/ 253 
+2025-08-23 00:23:06,468 WARNING "POST /api/register/ HTTP/1.1" 404 2365 213 
+2025-08-23 00:23:06,962 WARNING Not Found: /api/register/ 253 
+2025-08-23 00:23:06,963 WARNING "POST /api/register/ HTTP/1.1" 404 2365 213 
+2025-08-23 00:24:30,019 WARNING Not Found: /api/register/ 253 
+2025-08-23 00:24:30,020 WARNING "POST /api/register/ HTTP/1.1" 404 2365 213 
+2025-08-23 00:24:30,766 WARNING Not Found: /api/register/ 253 
+2025-08-23 00:24:30,767 WARNING "POST /api/register/ HTTP/1.1" 404 2365 213 
+2025-08-23 00:24:31,221 WARNING Not Found: /api/register/ 253 
+2025-08-23 00:24:31,222 WARNING "POST /api/register/ HTTP/1.1" 404 2365 213 
+2025-08-23 00:24:31,427 WARNING Not Found: /api/register/ 253 
+2025-08-23 00:24:31,428 WARNING "POST /api/register/ HTTP/1.1" 404 2365 213 
+2025-08-23 00:24:37,484 INFO "OPTIONS /api/auth/register/ HTTP/1.1" 200 0 213 
+2025-08-23 00:24:37,935 INFO "POST /api/auth/register/ HTTP/1.1" 201 79 213 
+2025-08-23 00:24:37,993 WARNING Not Found: /api/posts/ 253 
+2025-08-23 00:24:37,993 WARNING "GET /api/posts/ HTTP/1.1" 404 2355 213 
+2025-08-23 00:24:38,057 WARNING Not Found: /api/posts/ 253 
+2025-08-23 00:24:38,058 WARNING "GET /api/posts/ HTTP/1.1" 404 2355 213 
+2025-08-23 15:50:05,845 INFO Watching for file changes with StatReloader 667 
+2025-08-23 15:50:22,121 INFO "OPTIONS /api/auth/login/ HTTP/1.1" 200 0 213 
+2025-08-23 15:50:22,558 INFO "POST /api/auth/login/ HTTP/1.1" 200 239 213 
+2025-08-23 15:50:22,612 INFO "OPTIONS /api/posts/ HTTP/1.1" 200 0 213 
+2025-08-23 15:50:22,613 INFO "OPTIONS /api/posts/ HTTP/1.1" 200 0 213 
+2025-08-23 15:50:22,620 WARNING Not Found: /api/posts/ 253 
+2025-08-23 15:50:22,620 WARNING "GET /api/posts/ HTTP/1.1" 404 2355 213 
+2025-08-23 15:50:22,680 WARNING Not Found: /api/posts/ 253 
+2025-08-23 15:50:22,681 WARNING "GET /api/posts/ HTTP/1.1" 404 2355 213 
