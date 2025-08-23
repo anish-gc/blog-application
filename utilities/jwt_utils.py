@@ -1,10 +1,10 @@
-
-
+# utilities/jwt_utils.py
 import jwt
 from django.conf import settings
 from django.contrib.auth import get_user_model
 from datetime import datetime, timezone
 from django.http import JsonResponse
+
 User = get_user_model()
 
 def generate_jwt_token(user):
@@ -14,9 +14,7 @@ def generate_jwt_token(user):
         'username': user.username,
         'exp': datetime.now(timezone.utc) + settings.JWT_EXPIRATION_DELTA,
         'iat': datetime.now(timezone.utc)
-
     }
-    print(settings.JWT_SECRET_KEY)
     token = jwt.encode(
         payload=payload,
         key=settings.JWT_SECRET_KEY,
@@ -25,13 +23,12 @@ def generate_jwt_token(user):
     
     return token
 
-
 def verify_jwt(request):
     """Verify JWT token from request"""
     auth_header = request.META.get('HTTP_AUTHORIZATION', '')
     
     if not auth_header.startswith('Bearer '):
-        return None, JsonResponse({'error': 'Invalid authorization header'}, status=401)
+        return None, JsonResponse({'error': 'Invalid authorization header. Format: Bearer <token>'}, status=401)
     
     token = auth_header.split(' ')[1]
     
@@ -39,15 +36,15 @@ def verify_jwt(request):
         payload = jwt.decode(
             token, 
             settings.JWT_SECRET_KEY, 
-            algorithms=[settings.JWT_ALGORITHM],
-            options={"require": ["exp", "iat"]}
+            algorithms=[settings.JWT_ALGORITHM]
         )
         return payload, None
     except jwt.ExpiredSignatureError:
         return None, JsonResponse({'error': 'Token has expired'}, status=401)
     except jwt.InvalidTokenError as e:
         return None, JsonResponse({'error': f'Invalid token: {str(e)}'}, status=401)
-
+    except Exception as e:
+        return None, JsonResponse({'error': f'Token verification failed: {str(e)}'}, status=401)
 
 def decode_jwt_token(token):
     """Decode JWT token and return user"""
@@ -62,11 +59,14 @@ def decode_jwt_token(token):
         if user_id:
             user = User.objects.get(id=user_id)
             return user
+        else:
+            raise Exception('User ID not found in token')
+            
     except jwt.ExpiredSignatureError:
         raise Exception('Token has expired')
-    except jwt.InvalidTokenError:
-        raise Exception('Invalid token')
+    except jwt.InvalidTokenError as e:
+        raise Exception(f'Invalid token: {str(e)}')
     except User.DoesNotExist:
         raise Exception('User not found')
-    
-    return None
+    except Exception as e:
+        raise Exception(f'Token decoding failed: {str(e)}')
