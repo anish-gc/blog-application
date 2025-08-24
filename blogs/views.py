@@ -72,7 +72,6 @@ class PostListView(BasePostView, PaginationMixin, SearchMixin):
     def get(self, request):
         """Get all published posts with pagination and search"""
         try:
-            # Base queryset - only published posts for public access
             queryset = Post.objects.select_related('author').filter(is_active=True)
             
             # Apply search
