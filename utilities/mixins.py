@@ -62,7 +62,7 @@ class JSONResponseMixin:
         
 class PaginationMixin:
     """Mixin to handle pagination"""
-    page_size = 1
+    page_size = 10
     max_page_size = 100
     
     def paginate_queryset(self, queryset, request):
