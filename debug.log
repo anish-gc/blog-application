@@ -107,3 +107,483 @@
 2025-08-24 15:49:38,395 ERROR "GET /api/posts/25/ HTTP/1.1" 500 67 213 
 2025-08-24 15:49:41,315 INFO "GET /api/posts/5/ HTTP/1.1" 200 253 213 
 2025-08-24 15:49:41,320 INFO "GET /api/posts/5/ HTTP/1.1" 200 253 213 
+2025-08-24 15:50:12,805 INFO Watching for file changes with StatReloader 667 
+2025-08-24 15:50:39,186 INFO /home/anishchengre/Django/blog-application/core/settings.py changed, reloading. 265 
+2025-08-24 15:50:39,468 INFO Watching for file changes with StatReloader 667 
+2025-08-24 15:50:52,673 INFO /home/anishchengre/Django/blog-application/core/settings.py changed, reloading. 265 
+2025-08-24 15:50:52,961 INFO Watching for file changes with StatReloader 667 
+2025-08-24 15:50:54,331 INFO Watching for file changes with StatReloader 667 
+2025-08-24 15:51:00,918 INFO "OPTIONS /api/auth/login/ HTTP/1.1" 200 0 213 
+2025-08-24 15:51:01,363 INFO "POST /api/auth/login/ HTTP/1.1" 200 239 213 
+2025-08-24 15:51:01,464 INFO "OPTIONS /api/posts/my-posts/ HTTP/1.1" 200 0 213 
+2025-08-24 15:51:01,484 INFO "GET /api/posts/my-posts/ HTTP/1.1" 200 598 213 
+2025-08-24 15:51:54,146 INFO "GET /api/posts/my-posts/ HTTP/1.1" 200 598 213 
+2025-08-24 15:51:55,514 INFO "GET /api/posts/my-posts/ HTTP/1.1" 200 598 213 
+2025-08-24 15:51:56,511 INFO "GET /api/posts/my-posts/ HTTP/1.1" 200 598 213 
+2025-08-24 15:51:58,257 INFO "GET /api/posts/my-posts/ HTTP/1.1" 200 598 213 
+2025-08-24 15:52:28,449 WARNING Unauthorized: /api/posts/my-posts/ 253 
+2025-08-24 15:52:28,449 WARNING "GET /api/posts/my-posts/ HTTP/1.1" 401 30 213 
+2025-08-24 15:52:28,591 INFO "GET /api/posts/ HTTP/1.1" 200 843 213 
+2025-08-24 15:52:36,395 INFO "POST /api/auth/login/ HTTP/1.1" 200 225 213 
+2025-08-24 15:52:36,440 INFO "GET /api/posts/my-posts/ HTTP/1.1" 200 365 213 
+2025-08-24 15:53:04,183 INFO "GET /api/posts/my-posts/ HTTP/1.1" 200 365 213 
+2025-08-24 15:53:05,449 INFO "GET /api/posts/my-posts/ HTTP/1.1" 200 365 213 
+2025-08-24 15:53:06,133 INFO "GET /api/posts/my-posts/ HTTP/1.1" 200 365 213 
+2025-08-24 15:53:06,746 INFO "GET /api/posts/my-posts/ HTTP/1.1" 200 365 213 
+2025-08-24 15:53:07,273 INFO "GET /api/posts/my-posts/ HTTP/1.1" 200 365 213 
+2025-08-24 15:53:07,733 INFO "GET /api/posts/my-posts/ HTTP/1.1" 200 365 213 
+2025-08-24 15:53:08,250 INFO "GET /api/posts/my-posts/ HTTP/1.1" 200 365 213 
+2025-08-24 15:53:08,785 INFO "GET /api/posts/my-posts/ HTTP/1.1" 200 365 213 
+2025-08-24 15:53:09,225 INFO "GET /api/posts/my-posts/ HTTP/1.1" 200 365 213 
+2025-08-24 15:53:09,730 INFO "GET /api/posts/my-posts/ HTTP/1.1" 200 365 213 
+2025-08-24 15:53:10,195 INFO "GET /api/posts/my-posts/ HTTP/1.1" 200 365 213 
+2025-08-24 15:53:10,658 INFO "GET /api/posts/my-posts/ HTTP/1.1" 200 365 213 
+2025-08-24 15:53:11,095 INFO "GET /api/posts/my-posts/ HTTP/1.1" 200 365 213 
+2025-08-24 15:53:11,560 INFO "GET /api/posts/my-posts/ HTTP/1.1" 200 365 213 
+2025-08-24 15:53:11,960 INFO "GET /api/posts/my-posts/ HTTP/1.1" 200 365 213 
+2025-08-24 15:53:12,525 INFO "GET /api/posts/my-posts/ HTTP/1.1" 200 365 213 
+2025-08-24 15:53:12,864 INFO "OPTIONS /api/posts/my-posts/ HTTP/1.1" 200 0 213 
+2025-08-24 15:53:12,880 INFO "GET /api/posts/my-posts/ HTTP/1.1" 200 365 213 
+2025-08-24 15:53:13,281 INFO "OPTIONS /api/posts/my-posts/ HTTP/1.1" 200 0 213 
+2025-08-24 15:53:13,341 INFO "GET /api/posts/my-posts/ HTTP/1.1" 200 365 213 
+2025-08-24 15:53:14,730 INFO "OPTIONS /api/posts/my-posts/ HTTP/1.1" 200 0 213 
+2025-08-24 15:53:14,776 INFO "GET /api/posts/my-posts/ HTTP/1.1" 200 365 213 
+2025-08-24 15:53:51,013 WARNING Unauthorized: /api/posts/my-posts/ 253 
+2025-08-24 15:53:51,013 WARNING "GET /api/posts/my-posts/ HTTP/1.1" 401 30 213 
+2025-08-24 15:53:51,180 INFO "GET /api/posts/ HTTP/1.1" 200 843 213 
+2025-08-24 15:54:01,026 INFO /home/anishchengre/Django/blog-application/core/settings.py changed, reloading. 265 
+2025-08-24 15:54:01,350 INFO Watching for file changes with StatReloader 667 
+2025-08-24 15:54:36,690 INFO "POST /api/auth/login/ HTTP/1.1" 200 239 213 
+2025-08-24 15:54:36,750 INFO "GET /api/posts/my-posts/ HTTP/1.1" 200 598 213 
+2025-08-24 15:54:43,697 INFO "OPTIONS /api/posts/7/ HTTP/1.1" 200 0 213 
+2025-08-24 15:54:43,698 INFO "OPTIONS /api/posts/7/ HTTP/1.1" 200 0 213 
+2025-08-24 15:54:43,714 INFO "GET /api/posts/7/ HTTP/1.1" 200 250 213 
+2025-08-24 15:54:43,716 INFO "GET /api/posts/7/ HTTP/1.1" 200 250 213 
+2025-08-24 15:54:47,528 INFO "GET /api/posts/7/ HTTP/1.1" 200 250 213 
+2025-08-24 15:54:47,528 INFO "GET /api/posts/7/ HTTP/1.1" 200 250 213 
+2025-08-24 15:54:53,639 INFO "OPTIONS /api/posts/7/update/ HTTP/1.1" 200 0 213 
+2025-08-24 15:54:53,720 INFO "PUT /api/posts/7/update/ HTTP/1.1" 200 253 213 
+2025-08-24 15:54:53,778 INFO "GET /api/posts/7/ HTTP/1.1" 200 253 213 
+2025-08-24 15:54:53,782 INFO "GET /api/posts/7/ HTTP/1.1" 200 253 213 
+2025-08-24 15:54:58,107 INFO "OPTIONS /api/posts/7/delete/ HTTP/1.1" 200 0 213 
+2025-08-24 15:54:58,150 INFO "DELETE /api/posts/7/delete/ HTTP/1.1" 200 301 213 
+2025-08-24 15:54:58,197 INFO "GET /api/posts/my-posts/ HTTP/1.1" 200 356 213 
+2025-08-24 15:57:41,319 INFO /home/anishchengre/Django/blog-application/core/settings.py changed, reloading. 265 
+2025-08-24 16:19:24,230 INFO Watching for file changes with StatReloader 667 
+2025-08-24 16:19:31,373 INFO /home/anishchengre/Django/blog-application/core/settings.py changed, reloading. 265 
+2025-08-24 16:19:31,676 INFO Watching for file changes with StatReloader 667 
+2025-08-24 16:19:40,869 INFO /home/anishchengre/Django/blog-application/utilities/middleware.py changed, reloading. 265 
+2025-08-24 16:19:41,124 INFO Watching for file changes with StatReloader 667 
+2025-08-24 16:19:45,292 INFO /home/anishchengre/Django/blog-application/core/settings.py changed, reloading. 265 
+2025-08-24 16:19:45,568 INFO Watching for file changes with StatReloader 667 
+2025-08-24 16:19:55,805 INFO /home/anishchengre/Django/blog-application/core/settings.py changed, reloading. 265 
+2025-08-24 16:19:56,081 INFO Watching for file changes with StatReloader 667 
+2025-08-24 16:19:59,196 INFO Watching for file changes with StatReloader 667 
+2025-08-24 16:20:31,401 INFO Watching for file changes with StatReloader 667 
+2025-08-24 16:20:55,738 INFO /home/anishchengre/Django/blog-application/core/settings.py changed, reloading. 265 
+2025-08-24 16:20:56,057 INFO Watching for file changes with StatReloader 667 
+2025-08-24 16:20:56,688 ERROR Invalid HTTP_HOST header: 'localhost:8000'. You may need to add 'localhost' to ALLOWED_HOSTS. 253 
+Traceback (most recent call last):
+  File "/home/anishchengre/Django/blog-application/venv/lib/python3.13/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/anishchengre/Django/blog-application/venv/lib/python3.13/site-packages/django/utils/deprecation.py", line 119, in __call__
+    response = self.process_request(request)
+  File "/home/anishchengre/Django/blog-application/venv/lib/python3.13/site-packages/django/middleware/security.py", line 28, in process_request
+    host = self.redirect_host or request.get_host()
+                                 ~~~~~~~~~~~~~~~~^^
+  File "/home/anishchengre/Django/blog-application/venv/lib/python3.13/site-packages/django/http/request.py", line 202, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: 'localhost:8000'. You may need to add 'localhost' to ALLOWED_HOSTS.
+2025-08-24 16:20:56,691 WARNING "GET /api/posts/my-posts/ HTTP/1.1" 400 143 213 
+2025-08-24 16:20:58,241 ERROR Invalid HTTP_HOST header: 'localhost:8000'. You may need to add 'localhost' to ALLOWED_HOSTS. 253 
+Traceback (most recent call last):
+  File "/home/anishchengre/Django/blog-application/venv/lib/python3.13/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/anishchengre/Django/blog-application/venv/lib/python3.13/site-packages/django/utils/deprecation.py", line 119, in __call__
+    response = self.process_request(request)
+  File "/home/anishchengre/Django/blog-application/venv/lib/python3.13/site-packages/django/middleware/security.py", line 28, in process_request
+    host = self.redirect_host or request.get_host()
+                                 ~~~~~~~~~~~~~~~~^^
+  File "/home/anishchengre/Django/blog-application/venv/lib/python3.13/site-packages/django/http/request.py", line 202, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: 'localhost:8000'. You may need to add 'localhost' to ALLOWED_HOSTS.
+2025-08-24 16:20:58,242 WARNING "OPTIONS /api/posts/my-posts/ HTTP/1.1" 400 143 213 
+2025-08-24 16:21:00,999 ERROR Invalid HTTP_HOST header: 'localhost:8000'. You may need to add 'localhost' to ALLOWED_HOSTS. 253 
+Traceback (most recent call last):
+  File "/home/anishchengre/Django/blog-application/venv/lib/python3.13/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/anishchengre/Django/blog-application/venv/lib/python3.13/site-packages/django/utils/deprecation.py", line 119, in __call__
+    response = self.process_request(request)
+  File "/home/anishchengre/Django/blog-application/venv/lib/python3.13/site-packages/django/middleware/security.py", line 28, in process_request
+    host = self.redirect_host or request.get_host()
+                                 ~~~~~~~~~~~~~~~~^^
+  File "/home/anishchengre/Django/blog-application/venv/lib/python3.13/site-packages/django/http/request.py", line 202, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: 'localhost:8000'. You may need to add 'localhost' to ALLOWED_HOSTS.
+2025-08-24 16:21:01,002 WARNING "OPTIONS /api/posts/my-posts/ HTTP/1.1" 400 143 213 
+2025-08-24 16:21:05,066 ERROR Invalid HTTP_HOST header: 'localhost:8000'. You may need to add 'localhost' to ALLOWED_HOSTS. 253 
+Traceback (most recent call last):
+  File "/home/anishchengre/Django/blog-application/venv/lib/python3.13/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/anishchengre/Django/blog-application/venv/lib/python3.13/site-packages/django/utils/deprecation.py", line 119, in __call__
+    response = self.process_request(request)
+  File "/home/anishchengre/Django/blog-application/venv/lib/python3.13/site-packages/django/middleware/security.py", line 28, in process_request
+    host = self.redirect_host or request.get_host()
+                                 ~~~~~~~~~~~~~~~~^^
+  File "/home/anishchengre/Django/blog-application/venv/lib/python3.13/site-packages/django/http/request.py", line 202, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: 'localhost:8000'. You may need to add 'localhost' to ALLOWED_HOSTS.
+2025-08-24 16:21:05,068 WARNING "POST /api/auth/login/ HTTP/1.1" 400 143 213 
+2025-08-24 16:21:08,150 ERROR Invalid HTTP_HOST header: 'localhost:8000'. You may need to add 'localhost' to ALLOWED_HOSTS. 253 
+Traceback (most recent call last):
+  File "/home/anishchengre/Django/blog-application/venv/lib/python3.13/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/anishchengre/Django/blog-application/venv/lib/python3.13/site-packages/django/utils/deprecation.py", line 119, in __call__
+    response = self.process_request(request)
+  File "/home/anishchengre/Django/blog-application/venv/lib/python3.13/site-packages/django/middleware/security.py", line 28, in process_request
+    host = self.redirect_host or request.get_host()
+                                 ~~~~~~~~~~~~~~~~^^
+  File "/home/anishchengre/Django/blog-application/venv/lib/python3.13/site-packages/django/http/request.py", line 202, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: 'localhost:8000'. You may need to add 'localhost' to ALLOWED_HOSTS.
+2025-08-24 16:21:08,151 WARNING "OPTIONS /api/auth/login/ HTTP/1.1" 400 143 213 
+2025-08-24 16:21:30,571 ERROR Invalid HTTP_HOST header: 'localhost:8000'. You may need to add 'localhost' to ALLOWED_HOSTS. 253 
+Traceback (most recent call last):
+  File "/home/anishchengre/Django/blog-application/venv/lib/python3.13/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/anishchengre/Django/blog-application/venv/lib/python3.13/site-packages/django/utils/deprecation.py", line 119, in __call__
+    response = self.process_request(request)
+  File "/home/anishchengre/Django/blog-application/venv/lib/python3.13/site-packages/django/middleware/security.py", line 28, in process_request
+    host = self.redirect_host or request.get_host()
+                                 ~~~~~~~~~~~~~~~~^^
+  File "/home/anishchengre/Django/blog-application/venv/lib/python3.13/site-packages/django/http/request.py", line 202, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: 'localhost:8000'. You may need to add 'localhost' to ALLOWED_HOSTS.
+2025-08-24 16:21:30,573 WARNING "OPTIONS /api/auth/login/ HTTP/1.1" 400 143 213 
+2025-08-24 16:21:51,685 INFO /home/anishchengre/Django/blog-application/core/settings.py changed, reloading. 265 
+2025-08-24 16:21:52,007 INFO Watching for file changes with StatReloader 667 
+2025-08-24 16:21:52,666 ERROR Invalid HTTP_HOST header: 'localhost:8000'. You may need to add 'localhost' to ALLOWED_HOSTS. 253 
+Traceback (most recent call last):
+  File "/home/anishchengre/Django/blog-application/venv/lib/python3.13/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/anishchengre/Django/blog-application/venv/lib/python3.13/site-packages/django/utils/deprecation.py", line 119, in __call__
+    response = self.process_request(request)
+  File "/home/anishchengre/Django/blog-application/venv/lib/python3.13/site-packages/django/middleware/security.py", line 28, in process_request
+    host = self.redirect_host or request.get_host()
+                                 ~~~~~~~~~~~~~~~~^^
+  File "/home/anishchengre/Django/blog-application/venv/lib/python3.13/site-packages/django/http/request.py", line 202, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: 'localhost:8000'. You may need to add 'localhost' to ALLOWED_HOSTS.
+2025-08-24 16:21:52,668 WARNING "OPTIONS /api/auth/login/ HTTP/1.1" 400 143 213 
+2025-08-24 16:21:53,158 ERROR Invalid HTTP_HOST header: 'localhost:8000'. You may need to add 'localhost' to ALLOWED_HOSTS. 253 
+Traceback (most recent call last):
+  File "/home/anishchengre/Django/blog-application/venv/lib/python3.13/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/anishchengre/Django/blog-application/venv/lib/python3.13/site-packages/django/utils/deprecation.py", line 119, in __call__
+    response = self.process_request(request)
+  File "/home/anishchengre/Django/blog-application/venv/lib/python3.13/site-packages/django/middleware/security.py", line 28, in process_request
+    host = self.redirect_host or request.get_host()
+                                 ~~~~~~~~~~~~~~~~^^
+  File "/home/anishchengre/Django/blog-application/venv/lib/python3.13/site-packages/django/http/request.py", line 202, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: 'localhost:8000'. You may need to add 'localhost' to ALLOWED_HOSTS.
+2025-08-24 16:21:53,159 WARNING "OPTIONS /api/auth/login/ HTTP/1.1" 400 143 213 
+2025-08-24 16:21:53,384 ERROR Invalid HTTP_HOST header: 'localhost:8000'. You may need to add 'localhost' to ALLOWED_HOSTS. 253 
+Traceback (most recent call last):
+  File "/home/anishchengre/Django/blog-application/venv/lib/python3.13/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/anishchengre/Django/blog-application/venv/lib/python3.13/site-packages/django/utils/deprecation.py", line 119, in __call__
+    response = self.process_request(request)
+  File "/home/anishchengre/Django/blog-application/venv/lib/python3.13/site-packages/django/middleware/security.py", line 28, in process_request
+    host = self.redirect_host or request.get_host()
+                                 ~~~~~~~~~~~~~~~~^^
+  File "/home/anishchengre/Django/blog-application/venv/lib/python3.13/site-packages/django/http/request.py", line 202, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: 'localhost:8000'. You may need to add 'localhost' to ALLOWED_HOSTS.
+2025-08-24 16:21:53,385 WARNING "OPTIONS /api/auth/login/ HTTP/1.1" 400 143 213 
+2025-08-24 16:21:53,574 ERROR Invalid HTTP_HOST header: 'localhost:8000'. You may need to add 'localhost' to ALLOWED_HOSTS. 253 
+Traceback (most recent call last):
+  File "/home/anishchengre/Django/blog-application/venv/lib/python3.13/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/anishchengre/Django/blog-application/venv/lib/python3.13/site-packages/django/utils/deprecation.py", line 119, in __call__
+    response = self.process_request(request)
+  File "/home/anishchengre/Django/blog-application/venv/lib/python3.13/site-packages/django/middleware/security.py", line 28, in process_request
+    host = self.redirect_host or request.get_host()
+                                 ~~~~~~~~~~~~~~~~^^
+  File "/home/anishchengre/Django/blog-application/venv/lib/python3.13/site-packages/django/http/request.py", line 202, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: 'localhost:8000'. You may need to add 'localhost' to ALLOWED_HOSTS.
+2025-08-24 16:21:53,574 WARNING "OPTIONS /api/auth/login/ HTTP/1.1" 400 143 213 
+2025-08-24 16:21:56,169 INFO /home/anishchengre/Django/blog-application/core/settings.py changed, reloading. 265 
+2025-08-24 16:21:56,521 INFO Watching for file changes with StatReloader 667 
+2025-08-24 16:21:59,207 INFO Watching for file changes with StatReloader 667 
+2025-08-24 16:22:03,072 ERROR Invalid HTTP_HOST header: 'localhost:8000'. You may need to add 'localhost' to ALLOWED_HOSTS. 253 
+Traceback (most recent call last):
+  File "/home/anishchengre/Django/blog-application/venv/lib/python3.13/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/anishchengre/Django/blog-application/venv/lib/python3.13/site-packages/django/utils/deprecation.py", line 119, in __call__
+    response = self.process_request(request)
+  File "/home/anishchengre/Django/blog-application/venv/lib/python3.13/site-packages/django/middleware/security.py", line 28, in process_request
+    host = self.redirect_host or request.get_host()
+                                 ~~~~~~~~~~~~~~~~^^
+  File "/home/anishchengre/Django/blog-application/venv/lib/python3.13/site-packages/django/http/request.py", line 202, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: 'localhost:8000'. You may need to add 'localhost' to ALLOWED_HOSTS.
+2025-08-24 16:22:03,074 WARNING "OPTIONS /api/auth/login/ HTTP/1.1" 400 143 213 
+2025-08-24 16:22:43,202 ERROR Invalid HTTP_HOST header: 'localhost:8000'. You may need to add 'localhost' to ALLOWED_HOSTS. 253 
+Traceback (most recent call last):
+  File "/home/anishchengre/Django/blog-application/venv/lib/python3.13/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/anishchengre/Django/blog-application/venv/lib/python3.13/site-packages/django/utils/deprecation.py", line 119, in __call__
+    response = self.process_request(request)
+  File "/home/anishchengre/Django/blog-application/venv/lib/python3.13/site-packages/django/middleware/security.py", line 28, in process_request
+    host = self.redirect_host or request.get_host()
+                                 ~~~~~~~~~~~~~~~~^^
+  File "/home/anishchengre/Django/blog-application/venv/lib/python3.13/site-packages/django/http/request.py", line 202, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: 'localhost:8000'. You may need to add 'localhost' to ALLOWED_HOSTS.
+2025-08-24 16:22:43,203 WARNING "OPTIONS /api/auth/login/ HTTP/1.1" 400 143 213 
+2025-08-24 16:22:43,683 ERROR Invalid HTTP_HOST header: 'localhost:8000'. You may need to add 'localhost' to ALLOWED_HOSTS. 253 
+Traceback (most recent call last):
+  File "/home/anishchengre/Django/blog-application/venv/lib/python3.13/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/anishchengre/Django/blog-application/venv/lib/python3.13/site-packages/django/utils/deprecation.py", line 119, in __call__
+    response = self.process_request(request)
+  File "/home/anishchengre/Django/blog-application/venv/lib/python3.13/site-packages/django/middleware/security.py", line 28, in process_request
+    host = self.redirect_host or request.get_host()
+                                 ~~~~~~~~~~~~~~~~^^
+  File "/home/anishchengre/Django/blog-application/venv/lib/python3.13/site-packages/django/http/request.py", line 202, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: 'localhost:8000'. You may need to add 'localhost' to ALLOWED_HOSTS.
+2025-08-24 16:22:43,684 WARNING "OPTIONS /api/auth/login/ HTTP/1.1" 400 143 213 
+2025-08-24 16:22:48,517 ERROR Invalid HTTP_HOST header: 'localhost:8000'. You may need to add 'localhost' to ALLOWED_HOSTS. 253 
+Traceback (most recent call last):
+  File "/home/anishchengre/Django/blog-application/venv/lib/python3.13/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/anishchengre/Django/blog-application/venv/lib/python3.13/site-packages/django/utils/deprecation.py", line 119, in __call__
+    response = self.process_request(request)
+  File "/home/anishchengre/Django/blog-application/venv/lib/python3.13/site-packages/django/middleware/security.py", line 28, in process_request
+    host = self.redirect_host or request.get_host()
+                                 ~~~~~~~~~~~~~~~~^^
+  File "/home/anishchengre/Django/blog-application/venv/lib/python3.13/site-packages/django/http/request.py", line 202, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: 'localhost:8000'. You may need to add 'localhost' to ALLOWED_HOSTS.
+2025-08-24 16:22:48,520 WARNING "OPTIONS /api/auth/login/ HTTP/1.1" 400 143 213 
+2025-08-24 16:22:52,929 ERROR Invalid HTTP_HOST header: 'localhost:8000'. You may need to add 'localhost' to ALLOWED_HOSTS. 253 
+Traceback (most recent call last):
+  File "/home/anishchengre/Django/blog-application/venv/lib/python3.13/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/anishchengre/Django/blog-application/venv/lib/python3.13/site-packages/django/utils/deprecation.py", line 119, in __call__
+    response = self.process_request(request)
+  File "/home/anishchengre/Django/blog-application/venv/lib/python3.13/site-packages/django/middleware/security.py", line 28, in process_request
+    host = self.redirect_host or request.get_host()
+                                 ~~~~~~~~~~~~~~~~^^
+  File "/home/anishchengre/Django/blog-application/venv/lib/python3.13/site-packages/django/http/request.py", line 202, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: 'localhost:8000'. You may need to add 'localhost' to ALLOWED_HOSTS.
+2025-08-24 16:22:52,932 WARNING "OPTIONS /api/auth/login/ HTTP/1.1" 400 143 213 
+2025-08-24 16:23:04,651 ERROR Invalid HTTP_HOST header: 'localhost:8000'. You may need to add 'localhost' to ALLOWED_HOSTS. 253 
+Traceback (most recent call last):
+  File "/home/anishchengre/Django/blog-application/venv/lib/python3.13/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/anishchengre/Django/blog-application/venv/lib/python3.13/site-packages/django/utils/deprecation.py", line 119, in __call__
+    response = self.process_request(request)
+  File "/home/anishchengre/Django/blog-application/venv/lib/python3.13/site-packages/django/middleware/security.py", line 28, in process_request
+    host = self.redirect_host or request.get_host()
+                                 ~~~~~~~~~~~~~~~~^^
+  File "/home/anishchengre/Django/blog-application/venv/lib/python3.13/site-packages/django/http/request.py", line 202, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: 'localhost:8000'. You may need to add 'localhost' to ALLOWED_HOSTS.
+2025-08-24 16:23:04,652 WARNING "OPTIONS /api/auth/login/ HTTP/1.1" 400 143 213 
+2025-08-24 16:23:05,070 ERROR Invalid HTTP_HOST header: 'localhost:8000'. You may need to add 'localhost' to ALLOWED_HOSTS. 253 
+Traceback (most recent call last):
+  File "/home/anishchengre/Django/blog-application/venv/lib/python3.13/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/anishchengre/Django/blog-application/venv/lib/python3.13/site-packages/django/utils/deprecation.py", line 119, in __call__
+    response = self.process_request(request)
+  File "/home/anishchengre/Django/blog-application/venv/lib/python3.13/site-packages/django/middleware/security.py", line 28, in process_request
+    host = self.redirect_host or request.get_host()
+                                 ~~~~~~~~~~~~~~~~^^
+  File "/home/anishchengre/Django/blog-application/venv/lib/python3.13/site-packages/django/http/request.py", line 202, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: 'localhost:8000'. You may need to add 'localhost' to ALLOWED_HOSTS.
+2025-08-24 16:23:05,072 WARNING "OPTIONS /api/auth/login/ HTTP/1.1" 400 143 213 
+2025-08-24 16:23:05,262 ERROR Invalid HTTP_HOST header: 'localhost:8000'. You may need to add 'localhost' to ALLOWED_HOSTS. 253 
+Traceback (most recent call last):
+  File "/home/anishchengre/Django/blog-application/venv/lib/python3.13/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/anishchengre/Django/blog-application/venv/lib/python3.13/site-packages/django/utils/deprecation.py", line 119, in __call__
+    response = self.process_request(request)
+  File "/home/anishchengre/Django/blog-application/venv/lib/python3.13/site-packages/django/middleware/security.py", line 28, in process_request
+    host = self.redirect_host or request.get_host()
+                                 ~~~~~~~~~~~~~~~~^^
+  File "/home/anishchengre/Django/blog-application/venv/lib/python3.13/site-packages/django/http/request.py", line 202, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: 'localhost:8000'. You may need to add 'localhost' to ALLOWED_HOSTS.
+2025-08-24 16:23:05,263 WARNING "OPTIONS /api/auth/login/ HTTP/1.1" 400 143 213 
+2025-08-24 16:23:09,316 ERROR Invalid HTTP_HOST header: 'localhost:8000'. You may need to add 'localhost' to ALLOWED_HOSTS. 253 
+Traceback (most recent call last):
+  File "/home/anishchengre/Django/blog-application/venv/lib/python3.13/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/anishchengre/Django/blog-application/venv/lib/python3.13/site-packages/django/utils/deprecation.py", line 119, in __call__
+    response = self.process_request(request)
+  File "/home/anishchengre/Django/blog-application/venv/lib/python3.13/site-packages/django/middleware/security.py", line 28, in process_request
+    host = self.redirect_host or request.get_host()
+                                 ~~~~~~~~~~~~~~~~^^
+  File "/home/anishchengre/Django/blog-application/venv/lib/python3.13/site-packages/django/http/request.py", line 202, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: 'localhost:8000'. You may need to add 'localhost' to ALLOWED_HOSTS.
+2025-08-24 16:23:09,318 WARNING "OPTIONS /api/auth/login/ HTTP/1.1" 400 143 213 
+2025-08-24 16:24:12,690 ERROR Invalid HTTP_HOST header: 'localhost:8000'. You may need to add 'localhost' to ALLOWED_HOSTS. 253 
+Traceback (most recent call last):
+  File "/home/anishchengre/Django/blog-application/venv/lib/python3.13/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/anishchengre/Django/blog-application/venv/lib/python3.13/site-packages/django/utils/deprecation.py", line 119, in __call__
+    response = self.process_request(request)
+  File "/home/anishchengre/Django/blog-application/venv/lib/python3.13/site-packages/django/middleware/security.py", line 28, in process_request
+    host = self.redirect_host or request.get_host()
+                                 ~~~~~~~~~~~~~~~~^^
+  File "/home/anishchengre/Django/blog-application/venv/lib/python3.13/site-packages/django/http/request.py", line 202, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: 'localhost:8000'. You may need to add 'localhost' to ALLOWED_HOSTS.
+2025-08-24 16:24:12,693 WARNING "OPTIONS /api/auth/login/ HTTP/1.1" 400 143 213 
+2025-08-24 16:24:20,699 ERROR Invalid HTTP_HOST header: 'localhost:8000'. You may need to add 'localhost' to ALLOWED_HOSTS. 253 
+Traceback (most recent call last):
+  File "/home/anishchengre/Django/blog-application/venv/lib/python3.13/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/anishchengre/Django/blog-application/venv/lib/python3.13/site-packages/django/utils/deprecation.py", line 119, in __call__
+    response = self.process_request(request)
+  File "/home/anishchengre/Django/blog-application/venv/lib/python3.13/site-packages/django/middleware/security.py", line 28, in process_request
+    host = self.redirect_host or request.get_host()
+                                 ~~~~~~~~~~~~~~~~^^
+  File "/home/anishchengre/Django/blog-application/venv/lib/python3.13/site-packages/django/http/request.py", line 202, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: 'localhost:8000'. You may need to add 'localhost' to ALLOWED_HOSTS.
+2025-08-24 16:24:20,699 WARNING "OPTIONS /api/auth/login/ HTTP/1.1" 400 143 213 
+2025-08-24 16:24:33,718 INFO Watching for file changes with StatReloader 667 
+2025-08-24 16:24:40,479 INFO Watching for file changes with StatReloader 667 
+2025-08-24 16:24:43,870 ERROR Invalid HTTP_HOST header: 'localhost:8000'. You may need to add 'localhost' to ALLOWED_HOSTS. 253 
+Traceback (most recent call last):
+  File "/home/anishchengre/Django/blog-application/venv/lib/python3.13/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/anishchengre/Django/blog-application/venv/lib/python3.13/site-packages/django/utils/deprecation.py", line 119, in __call__
+    response = self.process_request(request)
+  File "/home/anishchengre/Django/blog-application/venv/lib/python3.13/site-packages/django/middleware/security.py", line 28, in process_request
+    host = self.redirect_host or request.get_host()
+                                 ~~~~~~~~~~~~~~~~^^
+  File "/home/anishchengre/Django/blog-application/venv/lib/python3.13/site-packages/django/http/request.py", line 202, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: 'localhost:8000'. You may need to add 'localhost' to ALLOWED_HOSTS.
+2025-08-24 16:24:43,872 WARNING "OPTIONS /api/auth/login/ HTTP/1.1" 400 74729 213 
+2025-08-24 16:24:55,141 ERROR Invalid HTTP_HOST header: 'localhost:8000'. You may need to add 'localhost' to ALLOWED_HOSTS. 253 
+Traceback (most recent call last):
+  File "/home/anishchengre/Django/blog-application/venv/lib/python3.13/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/anishchengre/Django/blog-application/venv/lib/python3.13/site-packages/django/utils/deprecation.py", line 119, in __call__
+    response = self.process_request(request)
+  File "/home/anishchengre/Django/blog-application/venv/lib/python3.13/site-packages/django/middleware/security.py", line 28, in process_request
+    host = self.redirect_host or request.get_host()
+                                 ~~~~~~~~~~~~~~~~^^
+  File "/home/anishchengre/Django/blog-application/venv/lib/python3.13/site-packages/django/http/request.py", line 202, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: 'localhost:8000'. You may need to add 'localhost' to ALLOWED_HOSTS.
+2025-08-24 16:24:55,142 WARNING "OPTIONS /api/auth/login/ HTTP/1.1" 400 74729 213 
+2025-08-24 16:25:38,509 ERROR Invalid HTTP_HOST header: 'localhost:8000'. You may need to add 'localhost' to ALLOWED_HOSTS. 253 
+Traceback (most recent call last):
+  File "/home/anishchengre/Django/blog-application/venv/lib/python3.13/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/anishchengre/Django/blog-application/venv/lib/python3.13/site-packages/django/utils/deprecation.py", line 119, in __call__
+    response = self.process_request(request)
+  File "/home/anishchengre/Django/blog-application/venv/lib/python3.13/site-packages/django/middleware/security.py", line 28, in process_request
+    host = self.redirect_host or request.get_host()
+                                 ~~~~~~~~~~~~~~~~^^
+  File "/home/anishchengre/Django/blog-application/venv/lib/python3.13/site-packages/django/http/request.py", line 202, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: 'localhost:8000'. You may need to add 'localhost' to ALLOWED_HOSTS.
+2025-08-24 16:25:38,510 WARNING "OPTIONS /api/auth/login/ HTTP/1.1" 400 74729 213 
+2025-08-24 16:25:56,491 ERROR Invalid HTTP_HOST header: 'localhost:8000'. You may need to add 'localhost' to ALLOWED_HOSTS. 253 
+Traceback (most recent call last):
+  File "/home/anishchengre/Django/blog-application/venv/lib/python3.13/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/anishchengre/Django/blog-application/venv/lib/python3.13/site-packages/django/utils/deprecation.py", line 119, in __call__
+    response = self.process_request(request)
+  File "/home/anishchengre/Django/blog-application/venv/lib/python3.13/site-packages/django/middleware/security.py", line 28, in process_request
+    host = self.redirect_host or request.get_host()
+                                 ~~~~~~~~~~~~~~~~^^
+  File "/home/anishchengre/Django/blog-application/venv/lib/python3.13/site-packages/django/http/request.py", line 202, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: 'localhost:8000'. You may need to add 'localhost' to ALLOWED_HOSTS.
+2025-08-24 16:25:56,492 WARNING "OPTIONS /api/auth/login/ HTTP/1.1" 400 74729 213 
+2025-08-24 16:25:57,341 ERROR Invalid HTTP_HOST header: 'localhost:8000'. You may need to add 'localhost' to ALLOWED_HOSTS. 253 
+Traceback (most recent call last):
+  File "/home/anishchengre/Django/blog-application/venv/lib/python3.13/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/anishchengre/Django/blog-application/venv/lib/python3.13/site-packages/django/utils/deprecation.py", line 119, in __call__
+    response = self.process_request(request)
+  File "/home/anishchengre/Django/blog-application/venv/lib/python3.13/site-packages/django/middleware/security.py", line 28, in process_request
+    host = self.redirect_host or request.get_host()
+                                 ~~~~~~~~~~~~~~~~^^
+  File "/home/anishchengre/Django/blog-application/venv/lib/python3.13/site-packages/django/http/request.py", line 202, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: 'localhost:8000'. You may need to add 'localhost' to ALLOWED_HOSTS.
+2025-08-24 16:25:57,342 WARNING "OPTIONS /api/auth/login/ HTTP/1.1" 400 74729 213 
+2025-08-24 16:25:57,831 ERROR Invalid HTTP_HOST header: 'localhost:8000'. You may need to add 'localhost' to ALLOWED_HOSTS. 253 
+Traceback (most recent call last):
+  File "/home/anishchengre/Django/blog-application/venv/lib/python3.13/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/anishchengre/Django/blog-application/venv/lib/python3.13/site-packages/django/utils/deprecation.py", line 119, in __call__
+    response = self.process_request(request)
+  File "/home/anishchengre/Django/blog-application/venv/lib/python3.13/site-packages/django/middleware/security.py", line 28, in process_request
+    host = self.redirect_host or request.get_host()
+                                 ~~~~~~~~~~~~~~~~^^
+  File "/home/anishchengre/Django/blog-application/venv/lib/python3.13/site-packages/django/http/request.py", line 202, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: 'localhost:8000'. You may need to add 'localhost' to ALLOWED_HOSTS.
+2025-08-24 16:25:57,832 WARNING "OPTIONS /api/auth/login/ HTTP/1.1" 400 74729 213 
+2025-08-24 16:25:59,899 ERROR Invalid HTTP_HOST header: 'localhost:8000'. You may need to add 'localhost' to ALLOWED_HOSTS. 253 
+Traceback (most recent call last):
+  File "/home/anishchengre/Django/blog-application/venv/lib/python3.13/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/anishchengre/Django/blog-application/venv/lib/python3.13/site-packages/django/utils/deprecation.py", line 119, in __call__
+    response = self.process_request(request)
+  File "/home/anishchengre/Django/blog-application/venv/lib/python3.13/site-packages/django/middleware/security.py", line 28, in process_request
+    host = self.redirect_host or request.get_host()
+                                 ~~~~~~~~~~~~~~~~^^
+  File "/home/anishchengre/Django/blog-application/venv/lib/python3.13/site-packages/django/http/request.py", line 202, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: 'localhost:8000'. You may need to add 'localhost' to ALLOWED_HOSTS.
+2025-08-24 16:25:59,901 WARNING "OPTIONS /api/auth/login/ HTTP/1.1" 400 74729 213 
+2025-08-24 16:26:00,356 ERROR Invalid HTTP_HOST header: 'localhost:8000'. You may need to add 'localhost' to ALLOWED_HOSTS. 253 
+Traceback (most recent call last):
+  File "/home/anishchengre/Django/blog-application/venv/lib/python3.13/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/anishchengre/Django/blog-application/venv/lib/python3.13/site-packages/django/utils/deprecation.py", line 119, in __call__
+    response = self.process_request(request)
+  File "/home/anishchengre/Django/blog-application/venv/lib/python3.13/site-packages/django/middleware/security.py", line 28, in process_request
+    host = self.redirect_host or request.get_host()
+                                 ~~~~~~~~~~~~~~~~^^
+  File "/home/anishchengre/Django/blog-application/venv/lib/python3.13/site-packages/django/http/request.py", line 202, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: 'localhost:8000'. You may need to add 'localhost' to ALLOWED_HOSTS.
+2025-08-24 16:26:00,357 WARNING "OPTIONS /api/auth/login/ HTTP/1.1" 400 74729 213 
+2025-08-24 16:26:03,069 INFO Watching for file changes with StatReloader 667 
+2025-08-24 16:26:04,561 INFO "OPTIONS /api/auth/login/ HTTP/1.1" 301 0 213 
+2025-08-24 16:27:19,901 INFO "OPTIONS /api/auth/login/ HTTP/1.1" 301 0 213 
+2025-08-24 16:27:22,900 INFO "OPTIONS /api/auth/login/ HTTP/1.1" 301 0 213 
+2025-08-24 16:30:08,370 INFO "OPTIONS /api/auth/login/ HTTP/1.1" 301 0 213 
+2025-08-24 16:30:13,319 INFO "OPTIONS /api/auth/login/ HTTP/1.1" 301 0 213 
+2025-08-24 16:30:21,799 INFO Watching for file changes with StatReloader 667 
+2025-08-24 16:30:32,495 INFO "OPTIONS /api/auth/login/ HTTP/1.1" 200 0 213 
+2025-08-24 16:30:32,936 INFO "POST /api/auth/login/ HTTP/1.1" 200 239 213 
+2025-08-24 16:30:33,008 INFO "OPTIONS /api/posts/my-posts/ HTTP/1.1" 200 0 213 
+2025-08-24 16:30:33,069 INFO "GET /api/posts/my-posts/ HTTP/1.1" 200 356 213 
+2025-08-24 16:30:38,767 INFO "OPTIONS /api/posts/6/delete/ HTTP/1.1" 200 0 213 
+2025-08-24 16:30:38,797 INFO "DELETE /api/posts/6/delete/ HTTP/1.1" 200 292 213 
+2025-08-24 16:30:43,775 INFO "GET /api/posts/my-posts/ HTTP/1.1" 200 122 213 
+2025-08-24 16:38:19,511 INFO "GET /api/posts/my-posts/ HTTP/1.1" 200 122 213 
+2025-08-24 16:38:27,080 INFO "OPTIONS /api/posts/create/ HTTP/1.1" 200 0 213 
+2025-08-24 16:38:27,119 WARNING Bad Request: /api/posts/create/ 253 
+2025-08-24 16:38:27,120 WARNING "POST /api/posts/create/ HTTP/1.1" 400 70 213 
+2025-08-24 16:38:29,866 INFO "POST /api/posts/create/ HTTP/1.1" 201 236 213 
+2025-08-24 16:38:29,913 INFO "GET /api/posts/my-posts/ HTTP/1.1" 200 348 213 
+2025-08-24 16:38:38,211 INFO "GET /api/posts/my-posts/ HTTP/1.1" 200 348 213 
